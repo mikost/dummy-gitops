@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: "dummy-sha256-1"
-        image: "eu.gcr.io/mikko-private-nec86c/dummy/dummy@sha256:560f6e8be743e51a9fe8d8b503b04ecd709724e15e3b05fd48b191b4ef6f684f"
+        image: "eu.gcr.io/mikko-private-nec86c/dummy/dummy@sha256:7a6208b269f0c4d18e9bbcf826f71138cbd335bb84748fa9145fa29bcd1ae965"
 ---
 apiVersion: "autoscaling/v2beta1"
 kind: "HorizontalPodAutoscaler"
